@@ -87,6 +87,10 @@ footer .contenedor{
 	.contenedor{
 		width: 1000px;
 	}
+    
+    .contenedor p {
+    text-align: right;
+    }
 }
 
 @media(min-width:768px){
@@ -97,6 +101,9 @@ footer .contenedor{
 	footer .contenedor{
 		justify-content:space-between;
 	}
+    .contenedor p {
+    text-align: right;
+    }
 }
 
 
