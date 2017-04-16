@@ -87,6 +87,17 @@ footer .contenedor{
 	.contenedor{
 		width: 1000px;
 	}
+    
+    .contenedor p {
+    text-align: right;
+    }
+    
+    iframe{
+    width: 600px;
+    height: 400px;
+    border: 0px;
+}
+
 }
 
 @media(min-width:768px){
@@ -97,6 +108,16 @@ footer .contenedor{
 	footer .contenedor{
 		justify-content:space-between;
 	}
+    .contenedor p {
+    text-align: right;
+    }
+    
+    iframe{
+    width: 600px;
+    height: 300px;
+    border: 0px;
+}
+
 }
 
 
